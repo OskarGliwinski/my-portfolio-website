@@ -87,7 +87,7 @@ $(window).on("scroll touchmove", function () {
     var education = $("#education");
     var languages = $("#languages");
     var hobby = $("#hobby");
-
+    var contact = $("#contact");
 
     if ($(document).scrollTop() == top.position().top) {
         $('body').css('background', top.attr("data-color"));
