@@ -4,7 +4,7 @@ $(function () {
         var $anchor = $(this);
         $('html, body').stop().animate({
             //scroll to given href minus height of navigation bar
-            scrollTop: $($anchor.attr('href')).offset().top - $("#nav-to-stop").height() + 20
+            scrollTop: $($anchor.attr('href')).offset().top - $("#nav-to-stop").height() + 30
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
